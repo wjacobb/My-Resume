@@ -17,11 +17,11 @@ function Info(){
             <div className="ml-10 pb-10">
                 <h2>Projects</h2>
                 <p>Here are a few of the projects I have created in and out of school. These projects are mainly geared towards web development as it was my work for a short period of time.</p>
-                <div>
+                {/* <div>
                     <p className="font-semibold leading-3 mt-8"><u>Daydream Car Rental</u></p>
                     <p className="">This was a short gig that I did to see how far I could get in creating a website from scratch and having no more than absolute basic knowledge in the web development world.</p>
                     <a href="https://daydream-consumer/pages/index.tsx">Daydream</a>
-                </div>
+                </div> */}
                 <div>
                     <p className="font-semibold leading-3 mt-8"><u>Weather Forecast</u></p>
                     <p>My first project where the teacher didn't hold my hand as I put together a weather website hitting precise criteria.</p>
@@ -32,6 +32,11 @@ function Info(){
                     <p className="mt-0 line">This was a one week final project for a class that I had to plan and program from start to finish with next to no guidelines and several criteria.</p>
                     <a href="https://wjacobb.github.io/scoots/home.html">Scoots Scooter Rentals</a>
                 </div>
+            </div>
+            <div className="ml-10 pb-10">
+                <p>Contact Info:</p>
+                <p>Phone: (737)-444-0602</p>
+                <p>Email: jacob.williams0803@gmail.com</p>
             </div>
             {/* Downloadable paper resume */}
             {/* Downloadable cover letter */}

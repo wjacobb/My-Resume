@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 const Navbar = () => {
     let Links =[
-        {name:"PROFILE",link:"/"},
+        {name:"PROFILE",link:"/Info.js"},
         {name:"RESUME",link:"/"},
         {name:"PROJECTS",link:"/"},
         {name:"CONTACT",link:"/"},

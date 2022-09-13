@@ -7,9 +7,11 @@ import Navbar from './components/Navbar.js'
 function App() {
   return (
     <div>
-      <Navbar/>
+      {/* Redundant since this is a first/basic draft */}
+      {/* <Navbar/> */}
       <Hero/>
       <Info/>
+      {/* Redundant for now since I am emailing Gary. */}
       <ContactForm/>
     </div>
   );
